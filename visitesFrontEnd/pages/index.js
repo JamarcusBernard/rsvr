@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default () => {
+const Init = () => {
   return (
-    <h1> This is the landing page of the visit project</h1> 
+    <h1> This is the landing page of the visit project</h1>
   );
 };
+
+export default Init;
