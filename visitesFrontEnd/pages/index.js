@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import TopLevelLink from '../components/IndexComponents/topLevelLink.js';
 
-const Init = () => {
-  return (
-    <h1> This is the landing page of the visit project</h1>
-  );
-};
+class HomePage extends Component {
+  render(){
+    return (
+      <div>
+        <TopLevelLink >
+        </TopLevelLink>
 
-export default Init;
+      </div>
+    );
+  }
+}
+
+export default HomePage;
